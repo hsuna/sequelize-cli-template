@@ -1,6 +1,12 @@
 
+### 一、项目架构
 
-### sequelize命令
+```
+
+```
+
+
+### 二、sequelize命令
 
 ```
 eg: sequelize [Commands]
