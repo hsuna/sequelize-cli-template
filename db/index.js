@@ -7,12 +7,7 @@ const sequelize = new Sequelize(
     DATABASE.database,  // 数据库名
     DATABASE.username,  // 用户名
     DATABASE.password,  // 用户密码
-    {
-        ...DATABASE,
-        define: {
-            underscored: true    // 字段以下划线（_）来分割（默认是驼峰命名风格）
-        }
-    }
+    DATABASE
 );
 
 const modelDir = path.resolve(__dirname, '../models');

@@ -5,7 +5,10 @@ module.exports = {
     database: 'nodejs',
     host: '127.0.0.1',
     port: 3306,
-    dialect: 'mysql'
+    dialect: 'mysql',
+    define: {
+      underscored: true    // 字段以下划线（_）来分割（默认是驼峰命名风格）
+    }
   },
   test: {
     username: 'root',
