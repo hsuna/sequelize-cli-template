@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: "monitoring",
+        name: "sequelize_cli",
         script: "./start.js",
         watch: ['server'],
         env_test: {
