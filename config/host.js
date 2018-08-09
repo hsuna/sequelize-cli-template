@@ -1,6 +1,6 @@
-export default {
+module.exports = {
   development: {
-    port: 3306
+    port: 3000
   },
   test: {
     port: 80
