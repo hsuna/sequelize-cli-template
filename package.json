@@ -1,14 +1,14 @@
 {
   "name": "sentry-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "基于nodejs+mysql开发模板 (pm2 + sequelize_cli + koa)",
+  "main": "start.js",
   "scripts": {
     "start": "node start.js",
     "test": "pm2 start ecosystem.config.js --env test",
     "prod": "pm2 start ecosystem.config.js --env production"
   },
-  "author": "",
+  "author": "Hsuna",
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
